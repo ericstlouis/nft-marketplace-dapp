@@ -1,5 +1,5 @@
 {
-  "name": "router",
+  "name": "nft-market",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -32,5 +32,9 @@
     "ethers": "^5.0.0",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.15"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/ericstlouis/nft_marketplace-dapp.git",
+  "author": "eric <ericstlouis2001@gmail.com>",
+  "license": "MIT"
 }
