@@ -107,7 +107,7 @@ export default function CreateItem() {
         />
         <input type="file" name="Asset" className="my-4" onChange={onChange} />
 
-        {fileUrl && <Image className="rounded mt-4" width="350" src={fileUrl} alt="${description}" />}
+        {fileUrl && <img className="rounded mt-4" width="350" src={fileUrl} alt="${description}" />}
 
         <button
           onClick={createMarket}
